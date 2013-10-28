@@ -5,6 +5,7 @@ var app = express();
 //app.engine( 'html', require('jade').__express);
 app.use('/', express.static( __dirname + '/public'));
 app.get('/', function(req, res) {
+  console.log('Got a request');
   //res.send("hello");
 });
 

@@ -14,6 +14,6 @@ app.use( function(err, req, res, next) {
 });
 
 console.log( 'starting the express (NodeJS) web server');
-var port = 8000;
+var port = 8080;
 app.listen(port);
 console.log('Webserver is listening on port ' + port );
